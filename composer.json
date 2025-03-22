@@ -1,0 +1,18 @@
+{
+	"name": "jwrobbs/wpmb-acf-json-manager",
+	"type": "wordpress-plugin",
+	"license": "Unlicense",
+	"autoload": {
+		"psr-4": {
+			"WPMB_ACF_MANAGER\\": "src/",
+			"WPMB_ACF_MANAGER_Common\\": "common/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Josh Robbs",
+			"email": "josh@joshrobbs.com"
+		}
+	],
+	"require": {}
+}
