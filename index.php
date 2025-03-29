@@ -1,15 +1,14 @@
 <?php
 /**
- * Plugin Name: WPMB Plugin Post Type
+ * Plugin Name: WPMB ACF JSON Manager
  * Plugin URI: https://joshrobbs.com
- * Description: Adds a post type for plugins.
- * Version: 0.1.0
+ * Description: Simple plugin to have ACF save data as JSON.
+ * Version: 1.0.0
  * Author: Josh Robbs
- * Author Email: josh@joshrobbs.com
  * Author URI: https://joshrobbs.com
  * License: The Unlicense
  * License URI: https://unlicense.org
- * Text Domain: wpmb-plugin-post-type
+ * Text Domain: wpmb-acf-json-manager
  * Domain Path: /languages
  *
  * @package WPMB_ACF_MANAGER

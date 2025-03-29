@@ -12,10 +12,10 @@ defined( 'ABSPATH' ) || exit;
 
 // Plugin path.
 if ( ! defined( 'WPMB_ACF_MANAGER_PATH' ) ) {
-	define( 'WPMB_ACF_MANAGER_PATH', plugin_dir_path( __FILE__ ) );
+	define( 'WPMB_ACF_MANAGER_PATH', plugin_dir_path( __DIR__ ) );
 }
 
 // Plugin URL.
 if ( ! defined( 'WPMB_ACF_MANAGER_URL' ) ) {
-	define( 'WPMB_ACF_MANAGER_URL', plugin_dir_url( __FILE__ ) );
+	define( 'WPMB_ACF_MANAGER_URL', plugin_dir_url( __DIR__ ) );
 }
